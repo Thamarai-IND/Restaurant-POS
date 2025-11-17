@@ -1,0 +1,192 @@
+[
+  {
+    "id": "1",
+    "name": "Dosa",
+    "price": 50,
+    "category": "breakfast",
+    "description": "Crispy South Indian crepe",
+    "image": "https://cdn.pixabay.com/photo/2017/04/04/18/27/masala-dosa-2204726_1280.jpg",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "2",
+    "name": "Idly",
+    "price": 40,
+    "category": "breakfast",
+    "description": "Steamed rice cakes",
+    "image": "https://cdn.pixabay.com/photo/2019/04/06/15/36/idli-4108188_1280.jpg",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "3",
+    "name": "Pongal",
+    "price": 45,
+    "category": "breakfast",
+    "description": "Savory rice and lentil dish",
+    "image": "https://cdn.pixabay.com/photo/2020/01/18/12/24/ven-pongal-4774989_1280.jpg",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "4",
+    "name": "Vada",
+    "price": 35,
+    "category": "breakfast",
+    "description": "Fried lentil donut",
+    "image": "https://cdn.pixabay.com/photo/2018/10/07/22/01/medu-vada-3733490_1280.jpg",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "5",
+    "name": "Poori",
+    "price": 40,
+    "category": "breakfast",
+    "description": "Deep-fried bread",
+    "image": "https://cdn.pixabay.com/photo/2019/03/31/05/24/poori-4093034_1280.jpg",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "6",
+    "name": "Chappathi",
+    "price": 30,
+    "category": "breakfast",
+    "description": "Whole wheat flatbread",
+    "image": "https://cdn.pixabay.com/photo/2018/03/08/20/09/chapati-3200202_1280.jpg",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "7",
+    "name": "Parotta",
+    "price": 35,
+    "category": "breakfast",
+    "description": "Layered flatbread",
+    "image": "https://cdn.pixabay.com/photo/2020/01/22/14/51/parotta-4785866_1280.jpg",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "8",
+    "name": "Coffee",
+    "price": 25,
+    "category": "beverage",
+    "description": "Hot filter coffee",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "9",
+    "name": "Milk",
+    "price": 20,
+    "category": "beverage",
+    "description": "Fresh milk",
+    "image": "https://images.unsplash.com/photo-1589463397556-4c5d1110b539?auto=format&fit=crop&w=800&q=80",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "10",
+    "name": "Tea",
+    "price": 20,
+    "category": "beverage",
+    "description": "Hot tea",
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "11",
+    "name": "Meals",
+    "price": 120,
+    "category": "lunch",
+    "description": "South Indian meals (rice, sambar, rasam, poriyal, curd)",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=80",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "12",
+    "name": "Sambar Rice",
+    "price": 90,
+    "category": "lunch",
+    "description": "Rice served with flavorful sambar",
+    "image": "https://images.unsplash.com/photo-1590502593747-42a08d0216fe?auto=format&fit=crop&w=1000&q=80",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "13",
+    "name": "Curd Rice",
+    "price": 80,
+    "category": "lunch",
+    "description": "Comforting rice mixed with curd and tempering",
+    "image": "https://images.unsplash.com/photo-1651044457571-4698f249da86?auto=format&fit=crop&w=1000&q=80",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "14",
+    "name": "Biriyani",
+    "price": 160,
+    "category": "lunch",
+    "description": "Aromatic spiced rice with vegetables or meat",
+    "image": "https://images.unsplash.com/photo-1604909052688-c8355f1d6bce?auto=format&fit=crop&w=1200&q=80",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "15",
+    "name": "Fried Rice",
+    "price": 130,
+    "category": "dinner",
+    "description": "Wok-tossed rice with veggies and spices",
+    "image": "https://images.unsplash.com/photo-1604909052688-c8355f1d6bce?auto=format&fit=crop&w=1200&q=80",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "16",
+    "name": "Noodles",
+    "price": 130,
+    "category": "dinner",
+    "description": "Stir-fried noodles with vegetables",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=80",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "17",
+    "name": "Paneer Butter Masala",
+    "price": 170,
+    "category": "dinner",
+    "description": "Creamy tomato gravy with paneer",
+    "image": "https://images.unsplash.com/photo-1625944524164-4bd2a8e6ce07?auto=format&fit=crop&w=1200&q=80",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "18",
+    "name": "Chicken Curry",
+    "price": 200,
+    "category": "dinner",
+    "description": "Spicy and flavorful chicken curry",
+    "image": "https://images.unsplash.com/photo-1625944524164-4bd2a8e6ce07?auto=format&fit=crop&w=1200&q=80",
+    "stock": 50,
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "19",
+    "name": "Fish Fry",
+    "price": 180,
+    "category": "dinner",
+    "description": "Crispy and spicy fried fish",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=80",
+    "stock": 50,
+    "lowStockThreshold": 10
+  }
+]
