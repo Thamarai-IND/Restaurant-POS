@@ -92,11 +92,11 @@ export default function AdminPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-red-500">
       <header className="bg-stone-950 shadow-md">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-3xl font-bold text-lime-300">Manage Menu</h1>
+            <h1 className="text-3xl font-bold text-white">Manage Menu</h1>
             <div className="space-x-4">
               <button
                 onClick={() => setShowForm(true)}

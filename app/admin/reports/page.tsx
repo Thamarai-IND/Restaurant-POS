@@ -32,11 +32,11 @@ export default function ReportsPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-red-500">
       <header className="bg-stone-950 shadow-md">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-3xl font-bold text-teal-300">Monthly Sales Report</h1>
+            <h1 className="text-3xl font-bold text-white">Monthly Sales Report</h1>
             <div className="space-x-4">
               <input
                 type="month"
@@ -52,7 +52,7 @@ export default function ReportsPage() {
               </button>
               <a
                 href="/admin"
-                className="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600"
+                className="px-4 py-2 bg-red-500 text-white rounded hover:bg-gray-600"
               >
                 Back to Admin
               </a>

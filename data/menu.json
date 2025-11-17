@@ -309,7 +309,7 @@
     "stock": 50,
     "lowStockThreshold": 10
   },
-    {
+  {
     "id": "32",
     "name": "Pepsi",
     "price": 80,
@@ -356,7 +356,7 @@
     "category": "beverage",
     "description": "Wok-tossed rice with veggies and spices",
     "image": "https://t4.ftcdn.net/jpg/01/51/87/63/360_F_151876341_AndmDKOm2W3RKQCrxUxnYgWx3hm0oG1p.jpg",
-    "stock": 50,
+    "stock": 49,
     "lowStockThreshold": 10
   }
 ]

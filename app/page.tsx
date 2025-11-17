@@ -106,7 +106,7 @@ export default function Home() {
       : menuItems.filter((i) => i.category === category);
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-red-500">
       <header className="bg-stone-950 shadow-md fixed z-10 w-full">
         <div className="container mx-auto px-1.5 py-1">
           <div className="flex justify-between items-center">
@@ -114,7 +114,7 @@ export default function Home() {
             <img className="w-24 h-20 object-contain" src='https://img.freepik.com/premium-vector/retro-restaurant-logo_23-2148474404.jpg' />
             <a
               href="/admin"
-              className="px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700"
+              className="px-4 py-2 bg-red-500 text-white rounded hover:bg-gray-700"
             >
               Manage Menu
             </a>
@@ -126,7 +126,7 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-2xl font-bold">
+              <h2 className="text-2xl text-white font-bold">
                 {category === 'all'
                   ? 'All Items'
                   : `${category.charAt(0).toUpperCase()}${category.slice(1)} Menu`}
