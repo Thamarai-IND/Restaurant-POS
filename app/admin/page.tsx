@@ -182,7 +182,7 @@ export default function AdminPage() {
                   <option value="breakfast">Breakfast</option>
                   <option value="lunch">Lunch</option>
                   <option value="dinner">Dinner</option>
-                  <option value="beverage">Beverage</option>
+                  <option value="beverage">Beverages</option>
                 </select>
               </div>
               <div>

@@ -36,15 +36,15 @@ export default function MenuItemCard({ item, onAddToCart }: MenuItemCardProps) {
       </div>
       <div className="p-4">
         <h3 className="text-xl font-bold mb-1">{item.name}</h3>
-        {item.description && (
+        {/* {item.description && (
           <p className="text-sm text-gray-600 mb-2">{item.description}</p>
-        )}
+        )} */}
         <div className="flex justify-between items-center">
           <span className="text-2xl font-bold text-green-600">₹{item.price}</span>
           <div className="flex items-center gap-3">
-            <span className={`text-sm ${((item.stock ?? 0) <= (item.lowStockThreshold ?? 0)) ? 'text-red-600' : 'text-gray-600'}`}>
+            {/* <span className={`text-sm ${((item.stock ?? 0) <= (item.lowStockThreshold ?? 0)) ? 'text-red-600' : 'text-gray-600'}`}>
               Stock: {item.stock ?? 0}
-            </span>
+            </span> */}
             <button
               disabled={(item.stock ?? 0) <= 0}
               className={`px-4 py-2 rounded text-white ${((item.stock ?? 0) <= 0) ? 'bg-gray-400 cursor-not-allowed' : 'bg-blue-500 hover:bg-blue-600'}`}
